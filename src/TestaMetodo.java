@@ -11,5 +11,14 @@ public static void main(String[] args) {
 	boolean conseguiuSaca = contaDoPaulo.saca(20);
 	System.out.println(conseguiuSaca);
 	System.out.println(contaDoPaulo.saldo);
+	
+	Conta contaDaMarcela = new Conta();
+	
+	contaDaMarcela.deposita(1000);
+	
+	contaDaMarcela.transfere(300, contaDoPaulo);
+	
+	System.out.println(contaDoPaulo.saldo);
+	System.out.println(contaDaMarcela.saldo);
 }
 }
