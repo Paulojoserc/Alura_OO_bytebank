@@ -16,9 +16,16 @@ public static void main(String[] args) {
 	
 	contaDaMarcela.deposita(1000);
 	
-	contaDaMarcela.transfere(300, contaDoPaulo);
+	if(contaDaMarcela.transfere(300, contaDoPaulo)) {
+		System.out.println("Transferencia conclida com suecesso");
+	}else {
+		System.out.println("Não foi possivel transferir o valor ");
+	}
 	
 	System.out.println(contaDoPaulo.saldo);
 	System.out.println(contaDaMarcela.saldo);
+	
+	contaDoPaulo.titular = "Paulo Costa";
+	System.out.println(contaDoPaulo.titular);
 }
 }
