@@ -10,8 +10,8 @@ public static void main(String[] args) {
 	Conta contaDoPaulo = new Conta();
 	contaDoPaulo.deposita(100);
 	//associa o cliente paulo a conta contaDoPaulo
-	contaDoPaulo.titular = paulo;
+	contaDoPaulo.setTitular(paulo);
 	
-	System.out.println(contaDoPaulo.titular.nome);
+	System.out.println(contaDoPaulo.getTitular().nome);
 }
 }
