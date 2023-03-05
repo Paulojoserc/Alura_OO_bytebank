@@ -14,10 +14,10 @@ public static void main(String[] args) {
 	System.out.println(g1.getSalario());
 	System.out.println(g1.getBonificacao());
 	
-	g1.setSenha(2222);
+	/*g1.setSenha(2222);
 	boolean autenticou = g1.autentica(2222);
 	
 	System.out.println(autenticou);
-	
+	*/
 }
 }
