@@ -1,7 +1,7 @@
 package bytebank_herdado;
 
 //Gerente eh um FuncionarioAutenticavel, Gerente herda da class FuncionarioAutenticavel
-public class Gerente extends Funcionario {
+public class Gerente extends Funcionario  {
 
 	
 	public double getBonificacao() {
